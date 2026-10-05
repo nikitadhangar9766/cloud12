@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #333;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        nav a:hover {
+            color: #00aaff;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+            background: #007bff;
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 45px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 20px;
+        }
+
+        .about {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .about h2 {
+            margin-bottom: 15px;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .button:hover {
+            background: #0056b3;
+        }
+
+        footer {
+            text-align: center;
+            background: #222;
+            color: white;
+            padding: 20px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>My Website</h2>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="hero" id="home">
+        <h1>Welcome to My Website</h1>
+        <p>A simple website hosted on GitHub Pages.</p>
+        <a href="#about" class="button">Learn More</a>
+    </section>
+
+    <section class="about" id="about">
+        <h2>About Me</h2>
+        <p>
+            Hello! My name is Your Name.
+            This is my first website created with HTML and CSS.
+        </p>
+        <a href="#contact" class="button">Contact Me</a>
+    </section>
+
+    <section class="about" id="contact">
+        <h2>Contact</h2>
+        <p>Email: yourname@example.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 My Website. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
